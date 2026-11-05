@@ -1,0 +1,24 @@
+[project]
+name = "banking-system"
+version = "1.0.0"
+description = "Simulated ATM withdrawal pipeline for the Freight Lane Apache Kafka workshop"
+license = "MIT"
+requires-python = ">=3.12"
+authors = [
+    { name = "Bruno Abreu" },
+    { name = "Omkar Ranade" },
+]
+dependencies = [
+    "confluent-kafka==2.15.0",
+]
+
+[project.scripts]
+banking-system = "banking_system.cli:main"
+create-atm-request = "banking_system.atm:trigger_request_cli"
+
+[build-system]
+requires = ["setuptools>=75.0"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+where = ["src"]

@@ -1,9 +1,5 @@
 # 🚛 Freight Lane — Apache Kafka Workshop Repository
 
-> **Workshop:** Freight Lane: Apache Kafka Foundation & Hands-on Workshop
-> **Presenters:** Omkar Ranade & Bruno Abreu
-> **Duration:** 1.5 hours | **Format:** In-person Workshop (Theory + Lab)
-
 This repository contains everything you need for the hands-on lab portion of the Freight
 Lane workshop: a local Apache Kafka cluster, a simulated ATM withdrawal pipeline, and
 comprehensive step-by-step guides.
